@@ -1,0 +1,15 @@
+GEM
+  specs:
+    iodine (0.5.1)
+      rack (>= 1.0, < 3.0)
+    rack (2.0.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  iodine
+  rack
+
+BUNDLED WITH
+   1.16.1
