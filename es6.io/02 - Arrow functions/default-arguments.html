@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Default Arguments</title>
+</head>
+<body>
+<script>
+  function calculateBill({total, tax = 0.15, tip = 0.13}) {
+    return total + (total * tax) + (total * tip)
+  };
+
+  const totalBill = calculateBill(100);
+</script>
+</body>
+</html>
